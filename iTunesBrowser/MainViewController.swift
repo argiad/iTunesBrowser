@@ -105,4 +105,13 @@ extension MainViewController {
         return cell
     }
     
+    override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let item = favList[indexPath.section]
+        
+        let vc = DetailController.prepare(for: item)
+        self.present(vc, animated: true, completion: nil)
+        
+        collectionView.deselectItem(at: indexPath, animated: false)
+    }
+    
 }
