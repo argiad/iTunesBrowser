@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,9 +11,19 @@
 		3ED6A28924427712000C2F58 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED6A28824427712000C2F58 /* SceneDelegate.swift */; };
 		3ED6A28B24427712000C2F58 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED6A28A24427712000C2F58 /* ViewController.swift */; };
 		3ED6A28E24427712000C2F58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ED6A28C24427712000C2F58 /* Main.storyboard */; };
-		3ED6A29124427712000C2F58 /* iTunesBrowser.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3ED6A28F24427712000C2F58 /* iTunesBrowser.xcdatamodeld */; };
 		3ED6A29324427713000C2F58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3ED6A29224427713000C2F58 /* Assets.xcassets */; };
 		3ED6A29624427713000C2F58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ED6A29424427713000C2F58 /* LaunchScreen.storyboard */; };
+		3ED6A29F2442776E000C2F58 /* iTunesApi in Frameworks */ = {isa = PBXBuildFile; productRef = 3ED6A29E2442776E000C2F58 /* iTunesApi */; };
+		3ED6A2A2244277B4000C2F58 /* ItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3ED6A2A0244277B4000C2F58 /* ItemCell.xib */; };
+		3ED6A2A3244277B4000C2F58 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED6A2A1244277B4000C2F58 /* ItemCell.swift */; };
+		3ED6A2AB2442781B000C2F58 /* SearchResultController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED6A2A42442781A000C2F58 /* SearchResultController.swift */; };
+		3ED6A2AC2442781B000C2F58 /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED6A2A52442781A000C2F58 /* DetailController.swift */; };
+		3ED6A2AD2442781B000C2F58 /* MyCollectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED6A2A62442781B000C2F58 /* MyCollectionController.swift */; };
+		3ED6A2AE2442781B000C2F58 /* BusinessLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED6A2A72442781B000C2F58 /* BusinessLogic.swift */; };
+		3ED6A2AF2442781B000C2F58 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED6A2A82442781B000C2F58 /* MainViewController.swift */; };
+		3ED6A2B02442781B000C2F58 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED6A2A92442781B000C2F58 /* UIView+Extension.swift */; };
+		3ED6A2B12442781B000C2F58 /* UIImgae+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED6A2AA2442781B000C2F58 /* UIImgae+Extension.swift */; };
+		3ED6A2B424427FE1000C2F58 /* iTunesBrowser.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3ED6A2B224427FE1000C2F58 /* iTunesBrowser.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,10 +32,19 @@
 		3ED6A28824427712000C2F58 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3ED6A28A24427712000C2F58 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3ED6A28D24427712000C2F58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3ED6A29024427712000C2F58 /* iTunesBrowser.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iTunesBrowser.xcdatamodel; sourceTree = "<group>"; };
 		3ED6A29224427713000C2F58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3ED6A29524427713000C2F58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3ED6A29724427713000C2F58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3ED6A2A0244277B4000C2F58 /* ItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ItemCell.xib; sourceTree = "<group>"; };
+		3ED6A2A1244277B4000C2F58 /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		3ED6A2A42442781A000C2F58 /* SearchResultController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultController.swift; sourceTree = "<group>"; };
+		3ED6A2A52442781A000C2F58 /* DetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
+		3ED6A2A62442781B000C2F58 /* MyCollectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCollectionController.swift; sourceTree = "<group>"; };
+		3ED6A2A72442781B000C2F58 /* BusinessLogic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusinessLogic.swift; sourceTree = "<group>"; };
+		3ED6A2A82442781B000C2F58 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		3ED6A2A92442781B000C2F58 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		3ED6A2AA2442781B000C2F58 /* UIImgae+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImgae+Extension.swift"; sourceTree = "<group>"; };
+		3ED6A2B324427FE1000C2F58 /* iTunesBrowser.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iTunesBrowser.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3ED6A29F2442776E000C2F58 /* iTunesApi in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +78,15 @@
 		3ED6A28524427712000C2F58 /* iTunesBrowser */ = {
 			isa = PBXGroup;
 			children = (
+				3ED6A2A1244277B4000C2F58 /* ItemCell.swift */,
+				3ED6A2A0244277B4000C2F58 /* ItemCell.xib */,
+				3ED6A2A72442781B000C2F58 /* BusinessLogic.swift */,
+				3ED6A2A52442781A000C2F58 /* DetailController.swift */,
+				3ED6A2A82442781B000C2F58 /* MainViewController.swift */,
+				3ED6A2A62442781B000C2F58 /* MyCollectionController.swift */,
+				3ED6A2A42442781A000C2F58 /* SearchResultController.swift */,
+				3ED6A2AA2442781B000C2F58 /* UIImgae+Extension.swift */,
+				3ED6A2A92442781B000C2F58 /* UIView+Extension.swift */,
 				3ED6A28624427712000C2F58 /* AppDelegate.swift */,
 				3ED6A28824427712000C2F58 /* SceneDelegate.swift */,
 				3ED6A28A24427712000C2F58 /* ViewController.swift */,
@@ -65,7 +94,7 @@
 				3ED6A29224427713000C2F58 /* Assets.xcassets */,
 				3ED6A29424427713000C2F58 /* LaunchScreen.storyboard */,
 				3ED6A29724427713000C2F58 /* Info.plist */,
-				3ED6A28F24427712000C2F58 /* iTunesBrowser.xcdatamodeld */,
+				3ED6A2B224427FE1000C2F58 /* iTunesBrowser.xcdatamodeld */,
 			);
 			path = iTunesBrowser;
 			sourceTree = "<group>";
@@ -86,6 +115,9 @@
 			dependencies = (
 			);
 			name = iTunesBrowser;
+			packageProductDependencies = (
+				3ED6A29E2442776E000C2F58 /* iTunesApi */,
+			);
 			productName = iTunesBrowser;
 			productReference = 3ED6A28324427712000C2F58 /* iTunesBrowser.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +146,9 @@
 				Base,
 			);
 			mainGroup = 3ED6A27A24427712000C2F58;
+			packageReferences = (
+				3ED6A29D2442776E000C2F58 /* XCRemoteSwiftPackageReference "iTunesApi" */,
+			);
 			productRefGroup = 3ED6A28424427712000C2F58 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -128,6 +163,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3ED6A2A2244277B4000C2F58 /* ItemCell.xib in Resources */,
 				3ED6A29624427713000C2F58 /* LaunchScreen.storyboard in Resources */,
 				3ED6A29324427713000C2F58 /* Assets.xcassets in Resources */,
 				3ED6A28E24427712000C2F58 /* Main.storyboard in Resources */,
@@ -141,10 +177,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3ED6A2B02442781B000C2F58 /* UIView+Extension.swift in Sources */,
+				3ED6A2AB2442781B000C2F58 /* SearchResultController.swift in Sources */,
+				3ED6A2AC2442781B000C2F58 /* DetailController.swift in Sources */,
 				3ED6A28B24427712000C2F58 /* ViewController.swift in Sources */,
 				3ED6A28724427712000C2F58 /* AppDelegate.swift in Sources */,
-				3ED6A29124427712000C2F58 /* iTunesBrowser.xcdatamodeld in Sources */,
+				3ED6A2AE2442781B000C2F58 /* BusinessLogic.swift in Sources */,
+				3ED6A2B12442781B000C2F58 /* UIImgae+Extension.swift in Sources */,
+				3ED6A2AD2442781B000C2F58 /* MyCollectionController.swift in Sources */,
 				3ED6A28924427712000C2F58 /* SceneDelegate.swift in Sources */,
+				3ED6A2A3244277B4000C2F58 /* ItemCell.swift in Sources */,
+				3ED6A2B424427FE1000C2F58 /* iTunesBrowser.xcdatamodeld in Sources */,
+				3ED6A2AF2442781B000C2F58 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,13 +387,32 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		3ED6A29D2442776E000C2F58 /* XCRemoteSwiftPackageReference "iTunesApi" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/argiad/iTunesApi";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3ED6A29E2442776E000C2F58 /* iTunesApi */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3ED6A29D2442776E000C2F58 /* XCRemoteSwiftPackageReference "iTunesApi" */;
+			productName = iTunesApi;
+		};
+/* End XCSwiftPackageProductDependency section */
+
 /* Begin XCVersionGroup section */
-		3ED6A28F24427712000C2F58 /* iTunesBrowser.xcdatamodeld */ = {
+		3ED6A2B224427FE1000C2F58 /* iTunesBrowser.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				3ED6A29024427712000C2F58 /* iTunesBrowser.xcdatamodel */,
+				3ED6A2B324427FE1000C2F58 /* iTunesBrowser.xcdatamodel */,
 			);
-			currentVersion = 3ED6A29024427712000C2F58 /* iTunesBrowser.xcdatamodel */;
+			currentVersion = 3ED6A2B324427FE1000C2F58 /* iTunesBrowser.xcdatamodel */;
 			path = iTunesBrowser.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
