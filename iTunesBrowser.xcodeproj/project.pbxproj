@@ -78,25 +78,57 @@
 		3ED6A28524427712000C2F58 /* iTunesBrowser */ = {
 			isa = PBXGroup;
 			children = (
+				3ED9F95D24467CD70067FEA5 /* XIBs */,
+				3ED9F95E24467CEC0067FEA5 /* Controllers */,
+				3ED6A2A72442781B000C2F58 /* BusinessLogic.swift */,
+				3ED6A28624427712000C2F58 /* AppDelegate.swift */,
+				3ED6A28824427712000C2F58 /* SceneDelegate.swift */,
+				3ED9F95F24467D0C0067FEA5 /* Resources */,
+				3ED9F96024467D220067FEA5 /* Extensions */,
+				3ED6A29724427713000C2F58 /* Info.plist */,
+			);
+			path = iTunesBrowser;
+			sourceTree = "<group>";
+		};
+		3ED9F95D24467CD70067FEA5 /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
 				3ED6A2A1244277B4000C2F58 /* ItemCell.swift */,
 				3ED6A2A0244277B4000C2F58 /* ItemCell.xib */,
-				3ED6A2A72442781B000C2F58 /* BusinessLogic.swift */,
+			);
+			path = XIBs;
+			sourceTree = "<group>";
+		};
+		3ED9F95E24467CEC0067FEA5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
 				3ED6A2A52442781A000C2F58 /* DetailController.swift */,
 				3ED6A2A82442781B000C2F58 /* MainViewController.swift */,
 				3ED6A2A62442781B000C2F58 /* MyCollectionController.swift */,
 				3ED6A2A42442781A000C2F58 /* SearchResultController.swift */,
-				3ED6A2AA2442781B000C2F58 /* UIImgae+Extension.swift */,
-				3ED6A2A92442781B000C2F58 /* UIView+Extension.swift */,
-				3ED6A28624427712000C2F58 /* AppDelegate.swift */,
-				3ED6A28824427712000C2F58 /* SceneDelegate.swift */,
 				3ED6A28A24427712000C2F58 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3ED9F95F24467D0C0067FEA5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				3ED6A28C24427712000C2F58 /* Main.storyboard */,
 				3ED6A29224427713000C2F58 /* Assets.xcassets */,
 				3ED6A29424427713000C2F58 /* LaunchScreen.storyboard */,
-				3ED6A29724427713000C2F58 /* Info.plist */,
 				3ED6A2B224427FE1000C2F58 /* iTunesBrowser.xcdatamodeld */,
 			);
-			path = iTunesBrowser;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3ED9F96024467D220067FEA5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3ED6A2AA2442781B000C2F58 /* UIImgae+Extension.swift */,
+				3ED6A2A92442781B000C2F58 /* UIView+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
