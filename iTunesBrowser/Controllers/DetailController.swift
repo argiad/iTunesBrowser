@@ -47,7 +47,7 @@ class DetailController: UIViewController {
         if let item = self.item {
             
             self.firstLine.text = item.artistName
-            self.secondLine.text = item.collectionName
+            self.secondLine.text = item.trackName
             
             if let urlString = item.artworkUrl100   {
                 mainImage.loadImageFrom(urlString)

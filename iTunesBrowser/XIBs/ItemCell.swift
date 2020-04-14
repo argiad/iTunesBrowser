@@ -25,7 +25,8 @@ class ItemCell: UICollectionViewCell {
     func setup(item: iTunesItem){
         
         self.firstLine.text = item.artistName
-        self.secondLine.text = item.collectionName
+        self.secondLine.text = item.trackName
+        self.favImage.image = BusinessLogic.shared.isInFav(item) ? UIImage(systemName: "heart.fill") :  UIImage(systemName: "heart")
         
         if let urlString = item.artworkUrl100   {
             mainImage.loadImageFrom(urlString)

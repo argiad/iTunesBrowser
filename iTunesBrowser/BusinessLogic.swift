@@ -19,7 +19,7 @@ class BusinessLogic {
 
     
     func isInFav(_ item: iTunesItem) -> Bool {
-        guard let id = item.artistID else {
+        guard let id = item.trackID else {
             return false
         }
         
@@ -53,7 +53,7 @@ class BusinessLogic {
     
     
     func setFavState(_ state: Bool, item: iTunesItem) {
-        guard let id = item.artistID else {
+        guard let id = item.trackID else {
             return
         }
         
@@ -80,7 +80,7 @@ class BusinessLogic {
             
             let entity = NSEntityDescription.entity(forEntityName: "Item", in: dbContext)!
             let _object = NSManagedObject(entity: entity, insertInto: dbContext)
-            _object.setValue("\(item.artistID!)", forKeyPath: "id")
+            _object.setValue("\(item.trackID!)", forKeyPath: "id")
             _object.setValue(data, forKey: "data")
             
             do {

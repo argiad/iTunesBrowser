@@ -34,7 +34,7 @@ class SearchResultController: MyCollectionController {
     }
     
     override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        let item = itemList[indexPath.section]
+        let item = itemList[indexPath.row]
         
         let vc = DetailController.prepare(for: item)
         self.present(vc, animated: true, completion: nil)
